@@ -1,5 +1,7 @@
 package cl.paris.proveedores.dto;
 
+import java.util.UUID;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProveedorResponseDto {
-    private Long id;
+    private UUID id;
     private String rut;
     private String razonSocial;
     private String telefono;
