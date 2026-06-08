@@ -12,7 +12,7 @@ import cl.paris.proveedores.dto.ProveedorRequestDto;
 import cl.paris.proveedores.dto.ProveedorResponseDto;
 import cl.paris.proveedores.exception.ResourceNotFoundException; 
 import cl.paris.proveedores.mapper.ProveedorMapper;
-import cl.paris.proveedores.model.Proveedor; // 🟢 Agregamos el import de UUID
+import cl.paris.proveedores.model.Proveedor; 
 import cl.paris.proveedores.repository.ProveedorRepository;
 
 @Service
